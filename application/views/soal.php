@@ -62,8 +62,6 @@
         }
 
         function rata() {
-            console.log('kematian1', kematian1);
-            console.log('kematian2', kematian2);
             document.getElementById('rata').innerHTML = "rata-ratanya (" + kematian1 + " + " + kematian2 + ")/2 = " + (parseInt(kematian1) + parseInt(kematian2)) / 2;
         }
     </script>
