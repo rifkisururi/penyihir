@@ -42,7 +42,7 @@ class Welcome extends CI_Controller
 				$riwayat = $riwayat + $pertambahan;
 			}
 		}
-		//echo $riwayat;
+		//echo $riwayat . "<br>";
 		return $riwayat;
 	}
 
